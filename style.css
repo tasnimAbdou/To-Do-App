@@ -1,0 +1,102 @@
+ul{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(212, 182, 211);
+    border-radius: 20px;
+}
+ 
+.checked{
+    text-decoration: line-through;
+    color: gray;
+    
+}
+#task div{
+    height:20px ;
+    width: 20px;
+    margin-right: 3px;
+    border-radius: 50%;
+    border: 1px solid rgb(184, 178, 178);
+
+}
+.checked div{
+
+    background-image: url(./img/5610944.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+#del{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-image: url(./img/DeleteRed.ico) ;
+background-size: 40px 40px;
+background-repeat: no-repeat;
+}
+#edit{
+   
+    background-image: url(./img/edit-247.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border: none;
+
+}
+
+#task{
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
+input{
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgb(42, 5, 53);
+    height: 40px;
+    background-color:rgba(137, 43, 226, 0.11);
+}
+#addBtn{
+    margin-left: -85px;
+    width: 80px;
+    padding: 0;
+    border-radius: 20px;
+background-color: rgb(88, 28, 100);
+height: 30px;
+border: 1px solid ;
+}
+form{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+main{
+    background-image: linear-gradient(to bottom right,rgba(56, 15, 54, 0.89), rgb(197, 76, 241), rgb(76, 52, 85));
+display: flex;
+align-items: center;
+justify-content: center;
+height: 650px;
+}
+li{
+background-color: rgba(131, 27, 145, 0.863);
+padding: 5px;
+border-bottom: .5px solid white;
+
+}
+
+
+h1{
+    color: wheat;
+    margin: 1px auto;
+}
+@media (max-width: 800px) {
+li{
+    width:400px ;
+}
+ul{width: 400px;}
+form{
+    width: 400px;
+}
+#task{width: 320px;}
+}
